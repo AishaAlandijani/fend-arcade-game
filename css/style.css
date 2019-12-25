@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    font-family: 'Turret Road', cursive;
+}
+
+.main {
+  padding: 40px;
+  padding-bottom: 0px;
+}
+div.score {
+  font-size: 150%;
+}
+
+
+.popup {
+  margin: 70px auto;
+	padding: 20px;
+	background: url('https://i.gifer.com/4f7u.gif');
+	border-radius: 5px;
+	width: 85%;
+	position: relative;
+}
+
+.popup h2 {
+	margin-top: 0;
+	color: #ffffff;
+}
+
+.popup .exit {
+  float: right;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.popup .exit:hover {
+	color: #E5F720;
+}
+
+.popup ,
+.content {
+	max-height: 75%;
+	overflow: auto;
+	text-align: center;
+  color: #ffffff;
+}
+
+.inout {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.7);
+	visibility: hidden;
+	opacity: 0;
+}
+
+.inout:target {
+	visibility: visible;
+	opacity: 1;
+}
+
+.show {
+	visibility: visible !important;
+	opacity: 100 !important;
+}
+
+#starRating li {
+	display: inline-block;
+}
+
+#play-again {
+	background-color: #c4de1a;
+	padding: 0.7rem 1rem;
+	font-size: 1.1rem;
+	display: block;
+	margin: 0 auto;
+	width: 50%;
+	color: #ffffff;
+	border-radius: 5px;
+}
